@@ -1,0 +1,48 @@
+{
+  "store.home": {
+    "blocks": [
+      "shelf#vitrina1"
+    ]
+  },
+
+   /* showcase 1 */
+  "shelf#vitrina1":{
+    "blocks": [
+      "product-summary.shelf#tutorial"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "showTitle":false
+      },
+      "blockClass":"shelf-vitrina"
+    }  
+  },
+  // SHOWCASE
+  "product-summary.shelf#tutorial": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-specifications#product",
+      "product-summary-space",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-specifications#product": {
+    "props": {
+      "shoudCollapseOnTabChange": true,
+      "visibleSpecifications":["Color"],
+      "collapsible": "never"
+    }
+  }
+  /* FIN vitrina 1 */
+
+}

@@ -1,0 +1,50 @@
+.specificationsTitle,
+.TablePropertyHeading,
+.specificationsTableSpecificationHeading,
+.specificationsTablePropertyHeading,
+.specificationItemProperty
+{
+    display: none;
+}
+
+.specificationItemSpecifications
+{
+    border: none;
+}
+
+.specificationItemSpecifications[data-specification="Gris"]{
+    font-size: 0px;
+}
+.specificationItemSpecifications[data-specification="Gris"]::before{
+    background-image: url(assets/icons-menu/icon1.svg);
+    background-size: 64px;
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+    content: "";
+}
+.specificationItemSpecifications[data-specification="Nevada"]{
+    font-size: 0px;
+}
+.specificationItemSpecifications[data-specification="Nevada"]::before{
+    background-image: url(assets/icons-menu/icon2.svg);
+    background-size: 64px;
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+    content: "";
+}
+.specificationItemSpecifications[data-specification="Gris, Blanco"]{
+    font-size: 0px;
+}
+.specificationItemSpecifications[data-specification="Gris, Blanco"]::before{
+    background-image: url(assets/icons-menu/icon3.svg);
+    background-size: 64px;
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+    content: "";
+}
+
+
+
